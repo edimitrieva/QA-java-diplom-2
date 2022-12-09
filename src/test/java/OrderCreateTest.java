@@ -14,6 +14,7 @@ import java.util.List;
 
 import static org.apache.http.HttpStatus.*;
 
+@DisplayName("Create order")
 public class OrderCreateTest {
     User user;
     UserClient userClient;

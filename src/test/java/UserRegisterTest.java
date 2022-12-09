@@ -14,6 +14,7 @@ import java.util.HashMap;
 import static org.apache.http.HttpStatus.SC_FORBIDDEN;
 import static org.apache.http.HttpStatus.SC_OK;
 
+@DisplayName("Register")
 public class UserRegisterTest {
     User user;
     UserClient userClient;

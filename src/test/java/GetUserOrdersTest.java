@@ -18,6 +18,7 @@ import java.util.List;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
 
+@DisplayName("Get user's orders")
 public class GetUserOrdersTest {
     User user;
     UserClient userClient;

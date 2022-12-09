@@ -14,6 +14,7 @@ import org.junit.runners.Parameterized;
 import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
 
 @RunWith(Parameterized.class)
+@DisplayName("Error's login")
 public class UserLoginErrorTest {
     User user;
     UserClient userClient;

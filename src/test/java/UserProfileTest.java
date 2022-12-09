@@ -15,6 +15,7 @@ import java.util.HashMap;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
 
+@DisplayName("User's profile")
 public class UserProfileTest {
     User user;
     UserClient userClient;

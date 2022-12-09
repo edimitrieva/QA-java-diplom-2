@@ -1,4 +1,5 @@
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import groovy.transform.CompileDynamic;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
@@ -14,6 +15,7 @@ import org.junit.runners.Parameterized;
 import static org.apache.http.HttpStatus.SC_FORBIDDEN;
 
 @RunWith(Parameterized.class)
+@DisplayName("Error's register")
 public class UserRegisterErrorTest {
     User user;
     UserClient userClient;
